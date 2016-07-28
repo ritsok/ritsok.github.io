@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% include header.html %}
+<div class="blog">
+    <h1>coming soon!!</h1>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

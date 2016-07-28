@@ -2,12 +2,13 @@
   url: /
 
 - title: about
-  url: /me
+  url: /about
 
 - title: blog
   url: /blog
-# - title: github
-#   url: https://github.com/ritsok
-#
-# - title: twitter
-#   url: https://twitter.com/getmicah
+
+- title: projects
+  url: /projects
+
+- title: etc.
+  url: /etc
